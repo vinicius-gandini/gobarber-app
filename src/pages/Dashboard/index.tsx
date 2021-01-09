@@ -1,6 +1,5 @@
 import { useNavigation } from '@react-navigation/native';
 import React, { useCallback, useEffect, useState } from 'react';
-import { View, Button } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Feather';
 import { useAuth } from '../../hooks/auth';
@@ -44,7 +43,7 @@ const Dashboard: React.FC = () => {
   const navigateToProfile = useCallback(() => {
     signOut();
     // navigate('Profile');
-  }, [navigate]);
+  }, [signOut]);
 
   const navigateToCreateAppointment = useCallback(
     (provider_id: string) => {
