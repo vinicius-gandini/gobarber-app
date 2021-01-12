@@ -36,6 +36,7 @@
       "no-unused-expressions": "off",
       "no-use-before-define": "off",
       "camelcase": "off",
+      "import/no-duplicates": "off",
       "prettier/prettier": "error",
       "import/extensions": [
         "error",
